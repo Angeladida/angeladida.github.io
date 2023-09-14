@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angela's Web Dev Journey</title>
+    <title>Your Website</title>
     <style>
         body {
-            background-color: #f9f9f9;
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        h1 {
-            color: #3498db;
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        p {
+            background-color: #f8f8f8;
             color: #333;
-            font-size: 18px;
-            line-height: 1.6;
-            max-width: 600px;
+        }
+
+        header {
+            background-color: #ffcd69;
+            color: #fff;
             text-align: center;
+            padding: 10px 0;
         }
 
-        a {
-            color: #3498db;
+        header h1 {
+            font-size: 60px;
+            font-family: 'Pacifico';
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .main-content {
+            background-color: #fff;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            padding: 70px;
+        }
+
+        .button {
+            background-color: #fd26d276;
+            color: #fff;
+            padding: 10px 20px;
             text-decoration: none;
-            font-weight: 600;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
         }
 
-        a:hover {
-            color: #2980b9;
+        .button:hover {
+            background-color: #8e29b9;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
+        footer {
+            background-color: #ffcd69;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Angela's Web Development Journey!</h1>
-    <p>As I dive into the exciting world of web development, I've learned various fundamental concepts, including HTML, CSS, and JavaScript. These are the building blocks of creating beautiful and interactive websites.</p>
-    <p>I'm passionate about crafting user-friendly and responsive websites that not only look trendy but also provide a seamless experience for visitors. If you're curious to explore more, <a href="page2.html">visit Page 2</a>.</p>
-    
+    <header>
+        <div class="container">
+            <h1>Angeladida</h1>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <h2>Hi. I'm Angela. I'm learning web design. This is fun :)</h2>
+        <p>Welcome to my website! This digital space serves as my creative playground for honing my web design skills. As a passionate learner in the fascinating world of web development, I'm constantly experimenting with design concepts, layouts, and user experiences. This website is a canvas where I explore the art of web design, aiming to create visually appealing, user-friendly, and responsive online environments. Your visit and feedback are highly appreciated as they contribute to my ongoing journey in mastering the craft of web design. Thank you for being a part of this exciting adventure!</p>
+        <a class="button" href="page2.html">Learn More</a>
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; 2023 Angeladida
+        </div>
+    </footer>
 </body>
 </html>
