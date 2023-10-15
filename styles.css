@@ -1,11 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
+    background-image: url('hitechroom.png');
+    background-size: cover; /* To ensure the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating if it's too small for the container */
+    background-position: center center; /* Centers the background image */
+    height: 100vh; /* 100% of the viewport height */
     display: flex;
-    height: 100vh;
-    align-items: center;
     justify-content: center;
+    align-items: center; /* These 3 lines ensure the calculator is centered on the page */
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Any preferred font-family */
 }
+
 
 .calculator {
     background-color: #000;
